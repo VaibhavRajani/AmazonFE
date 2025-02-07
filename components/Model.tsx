@@ -45,7 +45,7 @@ export default function Model() {
         talkAction.paused = true;
         talkAction.clampWhenFinished = true;
       }
-      alexaActions["alexa_low_poly.002Action"].play();
+      alexaActions["alexa_low_poly.002Action"]?.play();
     }, 4000);
   }, [studentActions, alexaActions]);
 
